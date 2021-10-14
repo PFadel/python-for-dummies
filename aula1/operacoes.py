@@ -24,6 +24,21 @@ idade_em_meses = idade * 12
 
 print(f"Meu nome é {nome}, tenho {idade_em_meses} meses de idade e {altura} de altura")
 
+# potência
+dois_ao_quadrado = pow(2, 2) # 2 elevado à 2
+tres_ao_quadrado = pow(3, 2) # 3 elevado à 2
+dois_ao_cubo = pow(2, 3) # 2 elevado à 3
+tres_ao_cubo = pow(3, 3) # 3 elevado à 3
+
+print(f"Dois ao quadrado é {dois_ao_quadrado}")
+print(f"Três ao quadrado é {tres_ao_quadrado}")
+print(f"Dois ao cubo é {dois_ao_cubo}")
+print(f"Três ao cubo é {tres_ao_cubo}")
+
+#
+# Raiz quadrada é mais complicado pra explicar como fazer então fica pra próxima aula (:
+#
+
 # multiplicação de variáveis reais
 altura_em_cm = altura * 100
 

@@ -25,7 +25,8 @@ if ja_teve_cabelo_azul is True:
 else:
 	print("O Fadel não teve cabelo azul")
 
-if tem_casa_propria is False:
+# é possível negar uma condição usando o operador 'not'
+if tem_casa_propria is not True:
 	print("O Fadel ainda nao tem uma casa própria")
 else:
 	print("O Fadel tem uma casa própria")

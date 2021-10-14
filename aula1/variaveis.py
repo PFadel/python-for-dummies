@@ -1,3 +1,10 @@
+# toda variável tem um nome
+# esse nome precisa começar com uma letra ou 'underline' _ a letra pode ser maiúscula ou minúscula
+# as letras não podem ter acento
+# ele pode ter números depois da primeira letra
+# ele pode ter 'underline' _ depois da primeira letra
+# outros caracteres especiais não são permitidos, @ , # , % e etc.
+
 # variáveis do tipo texto, ou 'string'
 nome = "Pedro"
 sobrenome = "Fadel"
