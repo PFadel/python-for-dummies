@@ -1,0 +1,9 @@
+Escrever uma função que calcula o troco ótimo.
+Ela recebe 2 parâmetros, o valor e o valor pago.
+O troco deve ser retornado na forma de texto.
+Exemplo:
+
+valor = 72
+valor_pago = 100
+
+return "1 nota de 20, 1 nota de 5, 1 nota de 2, 1 nota de 1"
