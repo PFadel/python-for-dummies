@@ -4,7 +4,7 @@ altura_fadel = 1.68
 ja_teve_cabelo_azul = True
 tem_casa_propria = False
 
-altura_thiago = 1.75
+altura_thiago = 1.85
 idade_thiago = 27
 idade_lorena = 27
 altura_lorena = 1.55
