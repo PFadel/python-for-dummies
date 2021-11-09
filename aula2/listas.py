@@ -26,7 +26,7 @@ print(lista_mista[3]) # 3.14
 # o erro é 'list index out of range', que significa que essa lista não possui esse índice
 # -> print(alunos[2])
 
-# depois que uma lista é definida, podemos adicionar elementos nela usando a função 'append' 
+# depois que uma lista é definida, podemos adicionar elementos nela usando a função 'append'
 alunos.append("Luma")  # queria ):
 print(alunos)  # ["lorena", "thiago", "Luma"]
 
@@ -39,7 +39,13 @@ print(alunos)  # ["lorena", "thiago"]
 
 # removendo pelo índice do elemento
 # caso o índice não exista na lista, será retornado um erro do Python 'pop index out of range'
-alunos.pop(1)
+alunos.pop(1)  # remove "thiago"
+
+# você pode descobrir o índice de um elemento específico da lista com a função 'index'
+print(alunos.index("lorena"))  # 0
+
+# se o elemento não existir essa função retornará um erro "ValueError: '<elemento>' is not in list"
+# print(alunos.index("banana"))  # "ValueError: 'banana' is not in list"
 
 # podemos também verificar se um elemento existe em uma lista
 if "lorena" in alunos:
