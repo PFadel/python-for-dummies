@@ -1,0 +1,11 @@
+Implementar uma função que recebe uma variável de texto e um número inteiro e codifica a variável de texto seguindo a cifra de Cesar e o número.
+
+Exemplo:
+
+Entrada:
+Número 3:
+Variável: Banana
+
+-----------------------------------
+
+Resultado esperado: Edqdqd

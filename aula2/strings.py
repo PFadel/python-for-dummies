@@ -23,6 +23,8 @@ print(len(nome))  # 11
 
 # a função 'split' separa a variável dado um caracter, criando uma lista com um elemento para cada parte
 print(nome.split(' '))  # ["Pedro", "Fadel"]
+nome = "Thiago Alves De Souza"
+print(nome.split(' '))  # ["Thiago", "Alves", "De", "Souza"]
 
 # caso o caracter do split não exista, a lista criada possui um só elemento, que é a variável completa
 print(nome.split('W'))  # ["Pedro Fadel"]
